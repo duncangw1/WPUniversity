@@ -1,5 +1,14 @@
 <?php 
 
+$names = array('Will', 'Bill', 'Frank', 'Julie');
+
+$count = 0;
+
+while($count < count($names)) {
+    echo "<li>Hi, my name is $names[$count]</li>";
+    $count++;
+}
+
 function greet($name, $color) {
     echo "<p>Hi, my name is $name and my favorite color is $color</p>";
 }
